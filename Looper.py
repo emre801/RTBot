@@ -3,6 +3,7 @@ import time
 counter =0
 while True:
 	execfile("LP.py")
+	execfile("Creature.py")
 	execfile("RT.py")
 	print eval ("counter")
 	counter= counter+1
