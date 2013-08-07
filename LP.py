@@ -73,7 +73,7 @@ def takeAndSubmit(settings, subreddit, feed):
 def loadSettings():
     """Load settings from file."""
     try:
-        settingsFile = open("settingsLPs.json", "r")
+        settingsFile = open("settingsLP.json", "r")
     except IOError:
         logging.exception("Error opening settings.json.")
         exitApp()
